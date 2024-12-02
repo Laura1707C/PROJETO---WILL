@@ -1,0 +1,19 @@
+Adicionar abaixo da logo no novocardapio: <div class="barra-pesquisa">
+                                <form id="formPesquisa" action="resultados.html" method="GET">
+                                    <input type="text" name="query" id="pesquisa" placeholder="Pesquisar produtos..." required>
+                                    <button type="submit">Buscar</button>
+                                </form>
+                            </div>
+
+Exemplo no código: 
+<td style="text-align: center;">
+                            <a href="./index.html">
+                                <img class="logo" src="logo.jpg" width="250px" alt="logo">
+                            </a>
+                            <div class="barra-pesquisa">
+                                <form id="formPesquisa" action="resultados.html" method="GET">
+                                    <input type="text" name="query" id="pesquisa" placeholder="Pesquisar produtos..." required>
+                                    <button type="submit">Buscar</button>
+                                </form>
+                            </div>                            
+                        </td>
